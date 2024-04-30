@@ -41,7 +41,7 @@ list_tasks.pack()
 
 
 
-buttom_image = PhotoImage(file="add.png")
+buttom_image = PhotoImage(file="img/add.png")
 
 add_task_buttom = tk.Button(root, image=buttom_image, borderwidth=0, command=add_buttom)
 add_task_buttom.pack(side="bottom", anchor='se')
